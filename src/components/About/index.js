@@ -45,7 +45,7 @@ const About = () => {
                     Cultural Expo Committee, Technology Chair - Chi Psi Fraternity, Fomento Scholar, Victorious in numerous Robotics Competitions,
                     Dean’s List Recognition.</p>
 
-                <a href='https://drive.google.com/file/d/1a1Hfbvj3iwViThYOnqMyc-WYHBYWAXc-/view?usp=drive_link' target='_blank'>
+                <a href='https://drive.google.com/file/d/1a1Hfbvj3iwViThYOnqMyc-WYHBYWAXc-/view?usp=drive_link' target='_blank' rel="noreferrer">
                     <button className='resume'>MY RESUME</button>
                 </a>
             </div>
