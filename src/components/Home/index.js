@@ -33,7 +33,7 @@ const Home = () => {
                 <AnimatedLetters letterClass={letterClass} strArray={nameArray} idx={31} /> 
                 </h1>
                 <h2>COMPUTER SCIENCE MAJOR @SDSMT</h2>
-                <Link to="/contact" className='flat-button'>REACH OUT TO ME!</Link>
+                <Link to="/about" className='flat-button'>FIND OUT MORE ABOUT ME!</Link>
             </div>
         </div>
         <Loader type="pacman" />
