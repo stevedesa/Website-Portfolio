@@ -5,6 +5,8 @@ import './index.scss';
 import AnimatedLetters from '../AnimatedLetters';
 import Loader from 'react-loaders';
 
+//https://styled-icons.dev/?s=home //Icons
+
 const Home = () => {
     const [letterClass, setLetterClass] = useState('text-animate')
     const Greetings = ['H', 'i', ' ', 'T', 'h', 'e', 'r', 'e', '!']
