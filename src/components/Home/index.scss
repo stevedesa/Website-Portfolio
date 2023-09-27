@@ -14,7 +14,7 @@
         margin: 0;
         font-family: 'Coolvetica';
         font-weight: 400;
-        text-shadow: 2px 2px 10px #000000;
+        text-shadow: 0 0 20px #000000;
 
         img {
             width: 32px;
@@ -23,6 +23,7 @@
             height: auto;
             animation: rotateIn 1.4s linear both;
             animation-delay: 2.5s;
+            text-shadow: 0 0 20px #000000;
         }
     }
 }
@@ -35,7 +36,7 @@ h2 {
     font-family: sans-serif;
     letter-spacing: 3px;
     animation: fadeIn 4s 3s backwards;
-    text-shadow: 2px 2px 10px #000000;
+    text-shadow: 0 0 20px #000000;
 }
 
 .flat-button {
@@ -52,7 +53,7 @@ h2 {
     animation: fadeIn 4s 3.5s backwards;
     white-space: nowrap;
     border-radius: 10px;
-    text-shadow: 2px 2px 10px #000000;
+    text-shadow: 0 0 20px #000000;
 
     &:hover {
         background: #ffd700;

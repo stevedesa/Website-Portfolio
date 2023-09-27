@@ -40,7 +40,7 @@ const About = () => {
                     Fullstack Web Development Bootcamp | 
                     Python Pro Bootcamp | 
                     Foundational C# [Microsoft]</p>
-                <p>Some of my Extracurriculars & Achievements include: <br/>
+                <p>Here are some of my Extracurriculars and Achievements: <br/>
                     ICPC Coding Team, Application Development Club, Data Science Club, Technology Coordinator - India Club, 
                     Cultural Expo Committee, Technology Chair - Chi Psi Fraternity, Fomento Scholar, Victorious in numerous Robotics Competitions,
                     Dean’s List Recognition.</p>
