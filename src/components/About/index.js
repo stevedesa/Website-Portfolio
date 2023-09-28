@@ -25,7 +25,7 @@ const About = () => {
                         idx={15}
                     />
                 </h1>
-                <p>I'm a Sophomore majoring in Computer Science at the South Dakota School of Mines and Technology</p>
+                <p>I'm a Sophomore majoring in Computer Science at the South Dakota School of Mines and Technology.</p>
                 <p>I'm Proficient in C, C#, C++, Python, HTML, CSS, JavaScript, R and Java.</p>
                 <p>I have experience working with a variety of Frameworks, namely Flask, React.JS, Node.JS, Express.JS, 
                     MongoDB, SQL, SQLite, Bootstrap, JQuery and Tkinter.</p>
@@ -42,8 +42,8 @@ const About = () => {
                     Foundational C# [Microsoft]</p>
                 <p>Here are some of my Extracurriculars and Achievements: <br/>
                     ICPC Coding Team, Application Development Club, Data Science Club, Technology Coordinator - India Club, 
-                    Cultural Expo Committee, Technology Chair - Chi Psi Fraternity, Fomento Scholar, Victorious in numerous Robotics Competitions,
-                    Dean’s List Recognition.</p>
+                    Cultural Expo Committee, Fomento Scholar, Victorious in numerous Robotics Competitions, Dean’s List 
+                    Recognition.</p>
 
                 <a href='https://drive.google.com/file/d/1a1Hfbvj3iwViThYOnqMyc-WYHBYWAXc-/view?usp=drive_link' target='_blank' rel="noreferrer">
                     <button className='resume'>MY RESUME</button>
