@@ -1,4 +1,11 @@
 .stage-cube-cont {
+    // position: relative;
+    // width: 100%;
+    // height: 100vh; /* This ensures the container takes the full viewport height */
+    // display: flex;
+    // justify-content: center; /* Center horizontally */
+    // align-items: center; /* Center vertically */
+    // overflow: hidden; /* Hide overflowing content */
     width: 46%;
     height: 100%;
     top: 0;
@@ -26,6 +33,7 @@
     border-radius: 10px;
 
     &:hover {
+
         background: #ffd700;
         color: #000000;
     }
@@ -74,25 +82,67 @@
 }
 
 @keyframes spincube {
-    from,
-    to {
+    from, to {
         transform: rotateX(0deg) rotateY(0deg) rotateZ(0deg);
     }
     16% {
         transform: rotateY(-90deg) rotateZ(90deg);
     }
-    33% {
+    33%, 66% {
         transform: rotateY(-90deg) rotateX(90deg);
     }
     50% {
         transform: rotateY(-180deg) rotateZ(90deg);
     }
-    66% {
-        transform: rotateY(-270deg) rotateX(90deg);
-    }
     83% {
         transform: rotateX(90deg);
     }
+
+    // from,
+    // to {
+    //     transform: rotateX(0deg) rotateY(0deg) rotateZ(0deg);
+    // }
+    // 12.5% {
+    //     transform: rotateY(-90deg) rotateZ(90deg);
+    // }
+    // 25% {
+    //     transform: rotateY(-90deg) rotateX(90deg);
+    // }
+    // 37.5% {
+    //     transform: rotateY(-180deg) rotateZ(90deg);
+    // }
+    // 50% {
+    //     transform: rotateY(-270deg) rotateX(90deg);
+    // }
+    // 62.5% {
+    //     transform: rotateY(-360deg) rotateZ(90deg);
+    // }
+    // 75% {
+    //     transform: rotateY(-450deg) rotateX(90deg);
+    // }
+    // 87.5% {
+    //     transform: rotateY(-540deg) rotateZ(90deg);
+    // }
+    
+    // from,
+    // to {
+    //     transform: rotateX(0deg) rotateY(0deg) rotateZ(0deg);
+    // }
+    // 16% {
+    //     transform: rotateY(-90deg) rotateZ(90deg);
+    // }
+    // 33% {
+    //     transform: rotateY(-90deg) rotateX(90deg);
+    // }
+    // 50% {
+    //     transform: rotateY(-180deg) rotateZ(90deg);
+    // }
+    // 66% {
+    //     transform: rotateY(-270deg) rotateX(90deg);
+    // }
+    // 83% {
+    //     transform: rotateX(90deg);
+    // }
 }
 
 .about-page i 
