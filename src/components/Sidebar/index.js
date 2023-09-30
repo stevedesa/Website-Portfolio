@@ -5,7 +5,6 @@ import Profile from '../../assets/images/logo.png'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faEnvelope, faUser, faHome } from '@fortawesome/free-solid-svg-icons';
 import { faFacebook, faGithub, faInstagram, faLinkedin, faTwitter } from '@fortawesome/free-brands-svg-icons';
-import { Home } from 'styled-icons/boxicons-regular';
 
 const Sidebar = () => (
     <div className='nav-bar'>
