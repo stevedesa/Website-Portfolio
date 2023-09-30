@@ -22,13 +22,13 @@
 .about-page {
     .text-zone {
         position: absolute;
-        left: 10%;
+        width: 42.6%;
+        margin-left: 10%;
         top: 50%;
         transform: translateY(-50%);
-        width: 42.5%;
         vertical-align: middle;
         display: table-cell;
-        max-height: 90%;
+        max-height: 100%;
 
         h1 {
             font-size: 54px;
@@ -37,7 +37,7 @@
             font-weight: 400;
             margin-top: 0;
             position: relative;
-            margin-bottom: 40px;
+            margin-bottom: 20px;
             left: 0px;
             // text-shadow: 0 0 2px #ffffff;
         }

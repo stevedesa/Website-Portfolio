@@ -38,16 +38,6 @@ const Sidebar = () => (
                     <FontAwesomeIcon icon={faInstagram} color="#4d4d4e" />
                 </a>
             </li>
-            <li>
-                <a target="_blank" rel='noreferrer' href='https://www.facebook.com/stevenathandesa/'>
-                    <FontAwesomeIcon icon={faFacebook} color="#4d4d4e" />
-                </a>
-            </li>
-            <li>
-                <a target="_blank" rel='noreferrer' href='https://twitter.com/steve_desa'>
-                    <FontAwesomeIcon icon={faTwitter} color="#4d4d4e" />
-                </a>
-            </li>
         </ul>
     </div>
 )
