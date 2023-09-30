@@ -5,7 +5,7 @@ import './index.scss';
 import AnimatedLetters from '../AnimatedLetters';
 import Loader from 'react-loaders';
 
-//https://styled-icons.dev/?s=home //Icons
+//https://styled-icons.dev //Icons
 
 const Home = () => {
     const [letterClass, setLetterClass] = useState('text-animate')
