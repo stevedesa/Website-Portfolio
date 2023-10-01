@@ -1,57 +1,29 @@
 .stage-cube-cont {
-    // position: relative;
-    // width: 100%;
-    // height: 100vh; /* This ensures the container takes the full viewport height */
-    // display: flex;
-    // justify-content: center; /* Center horizontally */
-    // align-items: center; /* Center vertically */
-    // overflow: hidden; /* Hide overflowing content */
-    width: 47%;
+    width: 40%;
     height: 100%;
     top: 0;
     right: 0;
     // padding-top: 15.3%;
     margin-left: 0;
-    position: absolute;
+    position: fixed;
     display: flex;
     align-items: center;
+    justify-content: center;
     overflow: hidden;
-}
-
-.resume {
-    color: #ffd700;
-    background: #181818;
-    font-size: 13px;
-    font-weight: 600;
-    letter-spacing: 4px;
-    font-family: sans-serif;
-    text-decoration: none;
-    padding: 10px 18px; 
-    border: 2px solid #ffd700;
-    margin-top: 25px;
-    float: left;
-    animation: fadeIn 5s 3.4s backwards;
-    white-space: nowrap;
-    border-radius: 10px;
-
-    &:hover {
-
-        background: #ffd700;
-        color: #000000;
-    }
 }
 
 .cubespinner {
     animation-name: spincube;
     animation-timing-function: ease-in-out;
     animation-iteration-count: infinite;
-    animation-duration: 20s;
+    animation-duration: 15s;
     transform-style: preserve-3d;
     transform-origin: 100px 100px 0;
-    margin-left: calc(50% - 100px);
-    margin-top: calc(50% - 100px);
-    margin-bottom: calc(50% - 100px);
-    margin-right: calc(50% - 100px);
+    // transform-origin: center;
+    // margin-left: calc(50% - 100px);
+    // margin-top: calc(50% - 100px);
+    // margin-bottom: calc(50%);
+    // margin-right: calc(50%);
 
     div {
         position: absolute;
