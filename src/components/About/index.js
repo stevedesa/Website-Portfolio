@@ -54,8 +54,8 @@ const About = () => {
                 </h1>
                 <p>I'm a Sophomore Computer Science Major studying at the South Dakota School of Mines and Technology.</p>
                 <p>I'm Proficient in C, C#, C++, Python, HTML, CSS, JavaScript, R and Java.</p>
-                <p>I have experience working with a variety of Frameworks and Technologies, 
-                    namely Flask, React.JS, Node.JS, Express.JS, MongoDB, SQL, SQLite, Bootstrap, JQuery and Tkinter.</p>
+                <p>I have experience working with a variety of Frameworks and Technologies, namely: <br/> 
+                    React.JS, Node.JS, Express.JS, Three.JS, TailWindCSS, MongoDB, SQL, Bootstrap, Flask, JQuery & Tkinter.</p>
                 <p>I'm proficient with a range of Developer Tools, including Git, GitHub, VS Code, Visual Studio, PyCharm, 
                     CLion, IntelliJ, and RStudio.</p>
                 <p>I hold Certifications in the following Courses: <br/>
