@@ -19,6 +19,9 @@
     animation-duration: 15s;
     transform-style: preserve-3d;
     transform-origin: 100px 100px 0;
+    position: relative;
+    right: 100px;
+    bottom: 100px;
     // transform-origin: center;
     // margin-left: calc(50% - 100px);
     // margin-top: calc(50% - 100px);
