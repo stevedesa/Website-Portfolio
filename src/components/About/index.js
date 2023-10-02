@@ -56,8 +56,8 @@ const About = () => {
                 <p>I'm Proficient in C, C#, C++, Python, HTML, CSS, JavaScript, R and Java.</p>
                 <p>I have experience working with a variety of Frameworks and Technologies, namely: <br/> 
                     React.JS, Node.JS, Three.JS, Express.JS, TailWindCSS, MongoDB, SQL, Bootstrap, Flask, JQuery & Tkinter.</p>
-                <p>I'm proficient with a range of Developer Tools, including Git, GitHub, VS Code, Visual Studio, PyCharm, 
-                    CLion, IntelliJ, and RStudio.</p>
+                <p>I'm proficient with a range of Developer Tools, including: 
+                    AWS, Git, GitHub, VS Code, Visual Studio, PyCharm, CLion, IntelliJ, and RStudio.</p>
                 <p>I hold Certifications in the following Courses: <br/>
                     Android App and Game Development | 
                     Design and Development of Embedded Systems and Robotics | 
