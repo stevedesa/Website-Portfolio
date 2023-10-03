@@ -3,6 +3,7 @@ import "./index.scss";
 import Loader from 'react-loaders';
 import Experience from './Experience';
 import {useEffect} from 'react';
+import Projects from './Projects';
 
 const Portfolio = () => {
 
@@ -42,6 +43,7 @@ const Portfolio = () => {
         <div className="portcont">
             <Loader type="pacman" />
             <Experience />
+            <Projects />
         </div>
     );
 }

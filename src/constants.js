@@ -37,23 +37,26 @@ const experiences = [
 
   const projects = [
     {
-      name: "PROJECT1",
-      description:
-        "",
+      name: "GAME OF WAR",
+      description: "Simulates the Classic Card Game of War by allocating 52 random, non-recurring cards to each player. Determines the winner based on the player with the highest card count after playing through the entire deck.",
       image: carrent, //REPLACE!!!
       source_code_link: "https://github.com/",
     },
     {
-      name: "PROJECT2",
-      description:
-        "",
+      name: "IMAGE EDITOR",
+      description: "Edits PPM and PGM images by utilizing pixel manipulation and color transformation algorithms. Features include clockwise/counterclockwise rotation, horizontal/vertical flipping & conversion to sepia or grayscale.",
       image: jobit, //REPLACE!!!
       source_code_link: "https://github.com/",
     },
     {
-      name: "PROJECT2",
-      description:
-        "",
+      name: "POKER GAME ENGINE",
+      description: "Content",
+      image: tripguide, //REPLACE!!!
+      source_code_link: "https://github.com/",
+    },
+    {
+      name: "AUTOMATED HOME ASSISTANT",
+      description: "Features Home Automation: control appliances remotely using the Assistant app or by using Voice Commands. Integrates a Voice Assistant with the ability to leverage the internet to answer a diverse range of questions.",
       image: tripguide, //REPLACE!!!
       source_code_link: "https://github.com/",
     },

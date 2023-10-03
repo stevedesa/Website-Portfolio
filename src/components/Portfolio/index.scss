@@ -163,3 +163,121 @@
         transform: translateY(-100px);
     }
 }
+
+.tiltdiv {
+    background-color: #000000;
+    padding: 1.25rem;
+    border-radius: 1rem;
+    width: auto;
+    height: auto;
+
+    @media screen and (min-width: 640px) {
+        .sm-width-360 {
+            width: 360px; /* Equivalent to sm:w-[360px] in Tailwind CSS */
+        }
+    }
+}
+
+.imagediv {
+    position: relative;
+    width: 300px;
+    height: 230px;
+}
+
+.imageprop {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 1rem;
+}
+
+.gitdiv {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    display: flex;
+    justify-content: flex-end;
+    margin: 0.75rem;
+    // absolute inset-0 flex justify-end m-3 card-img_hover
+}
+
+.gitclick {
+    background: linear-gradient(0deg, rgba(0, 0, 0, 1) 0%, rgba(0, 0, 0, 1) 100%);
+    width: 2.5rem;
+    height: 2.5rem;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    // black-gradient w-10 h-10 rounded-full flex justify-center items-center cursor-pointer
+}
+
+.gitlink {
+    width: 50%;
+    height: 50%;
+    object-fit: contain;
+    // w-1/2 h-1/2 object-contain
+}
+
+.desc {
+    margin-top: 1.25rem;
+    width: 300px;
+}
+
+.projname {
+    font-weight: bold;
+    margin-top: -5px;
+    font-family: 'Coolvetica';
+    font-size: 25px;
+    letter-spacing: 1px;
+    width: 100%;
+    height: auto;
+    object-fit: contain;
+    text-align: left;
+    background: -webkit-linear-gradient(#0492c2, #63c5da);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.projdesc {
+    margin-top: -20px;
+    font-family: 'Monda', sans-serif;
+    color: #fff;
+    font-size: 14px; 
+    letter-spacing: 0.2px;
+}
+
+.projindexdiv {
+    margin-top: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1.75rem;
+    justify-content: center;
+    align-items: center;
+    align-items: flex-start;
+}
+
+.projectlisting {
+    margin-top: 40px;
+    display: flex;
+    flex-direction: column;
+    animation-delay: 2s;
+
+    h1 {
+        font-size: 54px;
+        font-family: 'Coolvetica';
+        color: #ffd700;
+        font-weight: 400;
+        margin-top: -20px;
+        position: relative;
+        margin-bottom: 20px;
+        left: 0px;
+    }
+}
+
+.projheading {
+    text-align: center;
+}
