@@ -97,7 +97,6 @@ const About = () => {
                     <div className='face6'>
                         <Css3 color="#28A4D9" height={150} width={150}/>
                     </div>
-
                 </div>
             </div>
         </div>
