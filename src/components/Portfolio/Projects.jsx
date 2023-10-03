@@ -33,7 +33,7 @@ const ProjectCard = ({index, name, description, image, source_code_link,}) => {
 
 const Works = () => {
     const [letterClass, setLetterClass] = useState('text-animate');
-    const [showTimelinex, setShowTimelinex] = useState(false);
+    // const [showTimelinex, setShowTimelinex] = useState(false);
 
     useEffect(() => {
         setTimeout(() => 
@@ -42,12 +42,12 @@ const Works = () => {
         }, 4000)
     }, [])
 
-    useEffect(() => {
-        const timer = setTimeout(() => {
-          setShowTimelinex(true);
-        }, 3000);
-        return () => clearTimeout(timer);
-    }, []);
+    // useEffect(() => {
+    //     const timer = setTimeout(() => {
+    //       setShowTimelinex(true);
+    //     }, 3000);
+    //     return () => clearTimeout(timer);
+    // }, []);
 
     return (
     <>
