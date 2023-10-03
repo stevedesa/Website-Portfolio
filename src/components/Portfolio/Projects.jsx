@@ -33,7 +33,6 @@ const ProjectCard = ({index, name, description, image, source_code_link,}) => {
 
 const Works = () => {
     const [letterClass, setLetterClass] = useState('text-animate');
-    // const [showTimelinex, setShowTimelinex] = useState(false);
 
     useEffect(() => {
         setTimeout(() => 
@@ -41,13 +40,6 @@ const Works = () => {
             setLetterClass('text-animate-hover')
         }, 4000)
     }, [])
-
-    // useEffect(() => {
-    //     const timer = setTimeout(() => {
-    //       setShowTimelinex(true);
-    //     }, 3000);
-    //     return () => clearTimeout(timer);
-    // }, []);
 
     return (
     <>
@@ -59,7 +51,7 @@ const Works = () => {
                     idx={15}
                 />
             </h1>
-            <div className='projindexdiv'>
+            <div className='projindexdiv animdiv'>
                 {projects.map((project, index) => (
                 <ProjectCard key={`project-${index}`} index={index} {...project} />
                 ))}

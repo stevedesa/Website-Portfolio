@@ -2,7 +2,7 @@ import React from 'react';
 import "./index.scss";
 import Loader from 'react-loaders';
 import Experience from './Experience';
-import {useEffect} from 'react';
+import {useState, useEffect} from 'react';
 import Projects from './Projects';
 
 const Portfolio = () => {
@@ -39,11 +39,22 @@ const Portfolio = () => {
         };
     }, []);
 
+    const [showTimelinex, setShowTimelinex] = useState(false);
+
+    useEffect(() => {
+        const timerx = setTimeout(() => {
+          setShowTimelinex(true);
+        }, 3000);
+        return () => clearTimeout(timerx);
+    }, []);
+
     return (
         <div className="portcont">
             <Loader type="pacman" />
             <Experience />
+            {showTimelinex && (
             <Projects />
+            )}
         </div>
     );
 }

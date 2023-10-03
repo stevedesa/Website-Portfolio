@@ -51,7 +51,7 @@ const Experience = () => {
     useEffect(() => {
         const timer = setTimeout(() => {
           setShowTimeline(true);
-        }, 3000);
+        }, 2000);
         return () => clearTimeout(timer);
     }, []);
 
@@ -61,7 +61,7 @@ const Experience = () => {
         <h1 className='workheading'>
             <AnimatedLetters 
                 letterClass={letterClass}
-                strArray={['W','o','r','k',' ','E','x','p','e','r','i','e','n','c','e']}
+                strArray={['M','y',' ','W','o','r','k',' ','E','x','p','e','r','i','e','n','c','e']}
                 idx={15}
             />
         </h1>

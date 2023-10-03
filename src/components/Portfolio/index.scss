@@ -201,7 +201,6 @@
     display: flex;
     justify-content: flex-end;
     margin: 0.75rem;
-    // absolute inset-0 flex justify-end m-3 card-img_hover
 }
 
 .gitclick {
@@ -225,7 +224,8 @@
 
 .desc {
     margin-top: 1.25rem;
-    width: 300px;
+    width: 320px;
+    text-align: center;
 }
 
 .projname {
@@ -237,14 +237,14 @@
     width: 100%;
     height: auto;
     object-fit: contain;
-    text-align: left;
+    text-align: center;
     background: -webkit-linear-gradient(#0492c2, #63c5da);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
 
 .projdesc {
-    margin-top: -20px;
+    margin-top: -18px;
     font-family: 'Monda', sans-serif;
     color: #fff;
     font-size: 14px; 

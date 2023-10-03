@@ -40,25 +40,25 @@ const experiences = [
       name: "GAME OF WAR",
       description: "Simulates the Classic Card Game of War by allocating 52 random, non-recurring cards to each player. Determines the winner based on the player with the highest card count after playing through the entire deck.",
       image: doggies, 
-      source_code_link: "https://github.com/",
+      source_code_link: "https://github.com/stevedesa/Game-of-War",
     },
     {
       name: "IMAGE EDITOR",
       description: "Edits PPM and PGM images by utilizing pixel manipulation and color transformation algorithms. Features include clockwise/counterclockwise rotation, horizontal/vertical flipping & conversion to sepia or grayscale.",
       image: monkey,
-      source_code_link: "https://github.com/",
+      source_code_link: "https://github.com/stevedesa/Image-Editor",
     },
     {
       name: "KNIGHT'S ODYSSEY",
       description: "C++ Simulation to efficiently find the tour of a Knight on any size Chessboard from any Square. This is achieved by a recursive algorithm, aided by backtracking, using a brute-force, depth first search approach.",
       image: knight, 
-      source_code_link: "https://github.com/",
+      source_code_link: "https://github.com/stevedesa/Knights-Odyssey",
     },
     {
       name: "AUTOMATED HOME ASSISTANT",
       description: "Features Home Automation: control appliances remotely using the Assistant app or by using Voice Commands. Integrates a Voice Assistant with the ability to leverage the internet to answer a diverse range of questions.",
       image: assistant, 
-      source_code_link: "https://github.com/",
+      source_code_link: "https://github.com/stevedesa/Automated-Home-Assistant",
     },
   ];
   

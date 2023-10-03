@@ -111,4 +111,21 @@ h2 {
       margin: 20px auto 0 auto;
       width: 124px;
     }
-  }
+}
+
+.earthanimdiv{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 35%;
+}
+
+.earthobjdiv {
+    z-index: 10000000000000000;
+    height: 500px;
+    width: 500px;
+}

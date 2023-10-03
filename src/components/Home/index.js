@@ -4,6 +4,9 @@ import LogoTitle from '../../assets/images/logo-s1.png';
 import './index.scss';
 import AnimatedLetters from '../AnimatedLetters';
 import Loader from 'react-loaders';
+import { motion } from 'framer-motion';
+import { slideIn } from '../../motion';
+import EarthCanvas from '../../Earth';
 
 //https://styled-icons.dev //Icons
 
@@ -62,6 +65,11 @@ const Home = () => {
                 <h2>COMPUTER SCIENCE MAJOR @SDSMT</h2>
                 <Link to="/about" className='flat-button'>FIND OUT MORE ABOUT ME!</Link>
             </div>
+        </div>
+        <div className='earthanimdiv'>
+            <motion.div variants={slideIn("right", "tween", 0.2, 1)} className='earthobjdiv'>
+                <EarthCanvas />
+            </motion.div>
         </div>
         <Loader type="pacman" />
         </>
