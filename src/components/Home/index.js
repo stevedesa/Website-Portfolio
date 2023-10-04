@@ -50,6 +50,15 @@ const Home = () => {
         stars();
     }, []);
 
+    const [showTimelinexy, setShowTimelinexy] = useState(false);
+
+    useEffect(() => {
+        const timerxy = setTimeout(() => {
+          setShowTimelinexy(true);
+        }, 3000);
+        return () => clearTimeout(timerxy);
+    }, []);
+
     return (
         <>
         <div className="container home-page">
@@ -63,14 +72,19 @@ const Home = () => {
                 <AnimatedLetters letterClass={letterClass} strArray={nameArray} idx={31} /> 
                 </h1>
                 <h2>COMPUTER SCIENCE MAJOR @SDSMT</h2>
-                <Link to="/about" className='flat-button'>FIND OUT MORE ABOUT ME!</Link>
+                <div className='linkbutts'>
+                    <Link to="/about" className='flat-button'>FIND OUT MORE ABOUT ME!</Link>
+                    <Link to="/portfolio" className='flat-button'>CHECK OUT MY PERSONAL PORTFOLIO!</Link>
+                </div>
             </div>
         </div>
+        {showTimelinexy && (
         <div className='earthanimdiv'>
             <motion.div variants={slideIn("right", "tween", 0.2, 1)} className='earthobjdiv'>
                 <EarthCanvas />
             </motion.div>
         </div>
+        )}
         <Loader type="pacman" />
         </>
     );
