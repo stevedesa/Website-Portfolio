@@ -41,6 +41,17 @@
             margin-bottom: 5px;
             left: 0px;
             // text-shadow: 0 0 2px #ffffff;
+
+            .text-animate-hover {
+                min-width: 10px;
+                display: inline-block;
+                animation-fill-mode: both;
+              
+                &:hover {
+                    animation: rubberBand 1s;
+                    color: #ffffff !important;
+                }
+            }
         }
 
         p {
