@@ -61,6 +61,9 @@ const Home = () => {
 
     return (
         <>
+        <div className='hidden'>
+            <h1>Sorry:/ Working on Optimizing the Website for a Phone Browser!</h1>
+        </div>
         <div className="container home-page">
             <div className="text-zone">
                 <h1>
