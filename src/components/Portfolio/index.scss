@@ -179,7 +179,7 @@
 
     @media screen and (min-width: 640px) {
         .sm-width-360 {
-            width: 360px; /* Equivalent to sm:w-[360px] in Tailwind CSS */
+            width: 360px;
         }
     }
 }
@@ -217,14 +217,12 @@
     justify-content: center;
     align-items: center;
     cursor: pointer;
-    // black-gradient w-10 h-10 rounded-full flex justify-center items-center cursor-pointer
 }
 
 .gitlink {
     width: 50%;
     height: 50%;
     object-fit: contain;
-    // w-1/2 h-1/2 object-contain
 }
 
 .desc {
