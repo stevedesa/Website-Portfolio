@@ -72,7 +72,7 @@ const About = () => {
                     Cultural Expo Committee, Fomento Scholar, Victorious in numerous Robotics Competitions, Dean’s List 
                     Recognition.</p>
 
-                <a href='https://drive.google.com/file/d/1WxC438xAhT0rXKMec9bTcmNC8-Y1F01g/view?usp=sharing' target='_blank' rel="noreferrer">
+                <a href='https://drive.google.com/drive/folders/1CguRaYvqrF47wcXIf01yh9o0Gjzr2VZ1?usp=sharing' target='_blank' rel="noreferrer">
                     <button className='resume'>MY RESUME</button>
                 </a>
             </div>
