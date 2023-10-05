@@ -19,14 +19,5 @@ body {
 @media only screen and (max-width: 600px) {
   * {
     display: none;
-    visibility: hidden;
-  }
-
-  .hidden {
-    display: contents;
-    color: #000;
-  }
-  body {
-    background-color: #000;
   }
 }
