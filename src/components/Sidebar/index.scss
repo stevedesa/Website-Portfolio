@@ -85,12 +85,6 @@
             }
         }
 
-        a.contact-link {
-            &:after {
-                content: "CONTACT";
-            }
-        }
-
         a.portfolio-link {
             &:after {
                 content: "PORTFOLIO";
@@ -126,6 +120,33 @@
 
                 }
             }
+        }
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .nav-bar {
+        width: 12%;
+        height: 100%;
+    }
+
+    .logo {
+        display: block;
+        padding-top: 0px !important;
+        padding: 0px, 0px;
+        
+        img {
+            margin: 4px auto !important;
+            border: #ffffff solid 2px !important;
+            border-radius: 30% !important;
+            width: 25px !important;
+            height: 25px !important;
+        }
+    }
+
+    nav {
+        a {
+            font-size: 12px;
         }
     }
 }

@@ -95,28 +95,22 @@ h2 {
     }
 }
 
-@media screen and (max-width: 1200px) {
-    .tags,
-    .home-page h1:before,
-    .home-page h1:after {
-      display: none;
-    }
+// @media screen and (max-width: 1200px) {
+//     .home-page .text-zone {
+//       position: initial;
+//       width: 100%;
+//       transform: none;
+//       padding: 10px;
+//       box-sizing: border-box;
+//     }
   
-    .home-page .text-zone {
-      position: initial;
-      width: 100%;
-      transform: none;
-      padding: 10px;
-      box-sizing: border-box;
-    }
-  
-    .home-page .flat-button {
-      float: none;
-      display: block;
-      margin: 20px auto 0 auto;
-      width: 124px;
-    }
-}
+//     .home-page .flat-button {
+//       float: none;
+//       display: block;
+//       margin: 20px auto 0 auto;
+//       width: 124px;
+//     }
+// }
 
 .earthanimdiv{
     position: absolute;
@@ -133,4 +127,73 @@ h2 {
     z-index: 10000000000000000;
     height: 700px;
     width: 700px;
+}
+
+@media screen and (max-width: 800px) {
+    .earthanimdiv 
+    {
+        display: none;
+        visibility: hidden;
+    }
+
+    .home-page {
+        .text-zone {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            position: fixed;
+            left: 15%;
+            top: 50%;
+            transform: translateY(-50%);
+            width: 85%;
+            max-height: 100%;
+        }
+        h1 {
+            font-size: 35px !important;
+            margin: 0;
+            font-family: 'Coolvetica';
+            font-weight: 400;
+            -webkit-text-stroke: 1px #000000;
+            // text-shadow: 0 0 2px #ffffff;
+    
+            img {
+                width: 26px;
+                margin-left: 0px;
+                opacity: 0;
+                height: auto;
+                animation: rotateIn 1.4s linear both;
+                animation-delay: 2.5s;
+            }
+        }
+
+        h2 {
+            margin-top: 10px;
+            margin-bottom: -2px;
+            font-weight: 600;
+            font-size: 8px;
+            letter-spacing: 3px;
+            text-shadow: 0 0 20px #ffffff;
+        }
+    }
+
+    .flat-button {
+        font-size: 10px;
+        letter-spacing: 1px;
+        margin-top: 25px;
+        width: fit-content !important;
+        position: relative;
+        left: 0;
+        padding: 8px 8px;
+        background-color: #000000;
+    }
+
+    .linkbutts {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .home-page {
+        overflow-y: hidden !important;
+        overflow-x: hidden !important;
+    }
 }
