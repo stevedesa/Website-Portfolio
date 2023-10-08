@@ -296,3 +296,122 @@
 .projheading {
     text-align: center;
 }
+
+@media screen and (max-width: 800px) {
+    .portcont {
+        margin-left: 15%;
+        max-height: 100vh;
+        overflow-y: auto;
+        overflow-x: hidden !important;
+    }
+    
+    ::-webkit-scrollbar {
+        width: 10px;
+    }
+    
+    ::-webkit-scrollbar-track {
+        margin-block: 1px;
+    }
+    
+    ::-webkit-scrollbar-thumb {
+        border: 2px solid #000000;
+    }
+    
+    .experiencelisting {
+        margin-top: 20px;
+    
+        h1 {
+            font-size: 30px;
+            font-family: 'Coolvetica';
+            color: #ffd700;
+            font-weight: 400;
+            margin-top: -20px;
+            position: relative;
+            margin-bottom: -20px;
+            left: 0px;
+        }
+    }
+
+    .title {
+        font-size: 20px;
+        letter-spacing: 1px;
+        width: 100%;
+    }
+    
+    .companyname {
+        font-size: 10px;
+    }
+    
+    .date {
+        font-size: 10px;
+    }
+      
+    .points {
+        margin-top: -10px;
+    }
+
+    .list-item {
+        font-size: 10px; 
+        letter-spacing: 0.1px; 
+    }
+    
+    .tiltdiv {
+        background-color: #000000;
+        padding: 1.25rem;
+        border-radius: 1rem;
+        margin-left: 0;
+        margin-right: 0;
+        width: 85%;
+        height: auto;
+        margin-bottom: 40px;
+    }
+    
+    .imagediv {
+        position: relative;
+        width: 100%;
+        height: 150px;
+    }
+  
+    .desc {
+        margin-top: 10px;
+        width: auto;
+        text-align: center;
+    }
+    
+    .projname {
+        margin-top: 0px;
+        font-size: 20px;
+        letter-spacing: 1px;
+    }
+    
+    .projdesc {
+        margin-top: -10px;
+        font-size: 14px; 
+        letter-spacing: 0.2px;
+        margin-bottom: 0px;
+    }
+    
+    .projindexdiv {
+        margin-top: 20px;
+        display: flex;
+        flex-wrap: wrap;
+        gap: 1.75rem;
+        justify-content: center;
+        align-items: center;
+        align-items: flex-start;
+    }
+    
+    .projectlisting {
+        margin-top: 20px;
+    
+        h1 {
+            font-size: 30px;
+            margin-top: -20px;
+            margin-bottom: 0px;
+        }
+    }
+    
+    .projheading {
+        text-align: center;
+    }
+}
