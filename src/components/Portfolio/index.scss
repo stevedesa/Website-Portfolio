@@ -339,11 +339,11 @@
     }
     
     .companyname {
-        font-size: 10px;
+        font-size: 15px;
     }
     
     .date {
-        font-size: 10px;
+        font-size: 15px;
     }
       
     .points {
@@ -351,23 +351,17 @@
     }
 
     .list-item {
-        font-size: 10px; 
+        font-size: 14px; 
         letter-spacing: 0.1px; 
     }
     
     .tiltdiv {
-        background-color: #000000;
-        padding: 1.25rem;
-        border-radius: 1rem;
-        margin-left: 0;
-        margin-right: 0;
         width: 85%;
         height: auto;
-        margin-bottom: 40px;
+        margin-bottom: 20px;
     }
     
     .imagediv {
-        position: relative;
         width: 100%;
         height: 150px;
     }
@@ -375,7 +369,6 @@
     .desc {
         margin-top: 10px;
         width: auto;
-        text-align: center;
     }
     
     .projname {
@@ -393,12 +386,7 @@
     
     .projindexdiv {
         margin-top: 20px;
-        display: flex;
-        flex-wrap: wrap;
-        gap: 1.75rem;
-        justify-content: center;
-        align-items: center;
-        align-items: flex-start;
+        gap: 10px;
     }
     
     .projectlisting {
@@ -409,9 +397,5 @@
             margin-top: -20px;
             margin-bottom: 0px;
         }
-    }
-    
-    .projheading {
-        text-align: center;
     }
 }
