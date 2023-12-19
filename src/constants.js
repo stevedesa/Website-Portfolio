@@ -1,8 +1,38 @@
-import {monkey, assistant, knight, doggies, vsss, sdmb, sdmw } from "./assets";
+import {monkey, assistant, knight, doggies, vsss, sdmb, sdmw, cat } from "./assets";
 
 
   
 const experiences = [
+{
+  title: "Research Intern",
+  company_name: "Caterpillar MineStar Consortium, SDSMT", 
+  icon: cat, 
+  iconBg: "#000000",
+  date: "Nov 2023 - Present",
+  point1: "Computer Science Research Intern",
+  point2: "...",
+  point3: "...",
+},
+{
+  title: "Front-end Web Developer",
+  company_name: "South Dakota School of Mines and Technology", 
+  icon: sdmw, 
+  iconBg: "#ffffff",
+  date: "May 2023 - Present",
+  point1: "Edited and maintained University web pages, ensuring accuracy, clarity, and user-friendliness.",
+  point2: "Collaborated with content creators and utilized HTML/CSS/JS to update information promptly and responsibly.",
+  point3: "Elevated the collective online experience for a user base exceeding 10,000+ students, parents, and staff members.",
+},
+{
+  title: "University Front-desk Representative",
+  company_name: "South Dakota School of Mines and Technology",
+  icon: sdmb, 
+  iconBg: "#001e4d",
+  date: "Jan 2023 - Dec 2023",
+  point1: "Efficiently managed front-desk operations of a school with 2,500+ students, ensuring smooth & organized operations.",
+  point2: "Handled package delivery logistics, making sure all delivered packages were accurately distributed to students.",
+  point3: "Effectively communicated with students, parents, and staff, fostering a welcoming environment.",
+},  
 {
   title: "Brand Ambassador - Robotics",
   company_name: "Vibrant Skill Set Solutions",
@@ -12,26 +42,6 @@ const experiences = [
   point1: "Inspired and motivated students to pursue STEM research and build Robotic Projects using Embedded Systems.",
   point2: "Enhanced the Robotics and Programming Workshop curriculum to optimize learning and problem-solving outcomes.",
   point3: "Responsible for significantly boosting workshop attendance by attracting 1,000+ enthusiastic young students.",
-},
-{
-  title: "University Front-desk Representative",
-  company_name: "South Dakota School of Mines and Technology",
-  icon: sdmb, 
-  iconBg: "#001e4d",
-  date: "Jan 2023 - Present",
-  point1: "Efficiently managed front-desk operations of a school with 2,500+ students, ensuring smooth & organized operations.",
-  point2: "Handled package delivery logistics, making sure all delivered packages were accurately distributed to students.",
-  point3: "Effectively communicated with students, parents, and staff, fostering a welcoming environment.",
-},
-{
-  title: "Front-end Web Developer",
-  company_name: "South Dakota School of Mines and Technology", 
-  icon: sdmw, 
-  iconBg: "#ffffff",
-  date: "May 2023 - Present",
-  point1: "Edited and maintained University web pages, ensuring accuracy, clarity, and user-friendliness.",
-  point2: "Collaborated with content creators and utilized HTML/CSS/JS to update information promptly and responsibly",
-  point3: "Elevated the collective online experience for a user base exceeding 10,000+ students, parents, and staff members.",
 },
 ];
 
