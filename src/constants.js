@@ -4,7 +4,7 @@ import {monkey, assistant, knight, doggies, vsss, sdmb, sdmw, cat } from "./asse
   
 const experiences = [
 {
-  title: "Research Intern",
+  title: "Software Engineering Intern",
   company_name: "Caterpillar MineStar Consortium, SDSMT", 
   icon: cat, 
   iconBg: "#000000",
