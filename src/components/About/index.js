@@ -53,11 +53,11 @@ const About = () => {
                     />
                 </h1>
                 <p>I'm a Sophomore Computer Science Major studying at the South Dakota School of Mines and Technology.</p>
-                <p>I'm Proficient in C, C#, C++, Python, HTML, CSS, JavaScript, R and Java.</p>
+                <p>I'm Proficient in Python, C, C#, C++, HTML, CSS, JavaScript, SQL, R, Java</p>
                 <p>I have experience working with a variety of Frameworks and Technologies, namely: <br/> 
-                    React.JS, Node.JS, Three.JS, Express.JS, TailWindCSS, MongoDB, SQL, Bootstrap, Flask, JQuery & Tkinter.</p>
+                    .NET, Node.JS, React.JS, Three.JS, Express.JS, Bootstrap, Django, Flask, MongoDB, Tkinter</p>
                 <p>I'm proficient with a range of Developer Tools, including: 
-                    AWS, Git, GitHub, VS Code, Visual Studio, PyCharm, CLion, IntelliJ, and RStudio.</p>
+                    AWS, Git, Visual Studio, MySQL, PyCharm, CLion, IntelliJ, RStudio, Power BI</p>
                 <p>I hold Certifications in the following Courses: <br/>
                     Android App and Game Development | 
                     Design and Development of Embedded Systems and Robotics | 
@@ -68,9 +68,8 @@ const About = () => {
                     Python Pro Bootcamp | 
                     Foundational C# [Microsoft]</p>
                 <p>Here are some of my Extracurriculars and Achievements: <br/>
-                    ICPC Coding Team, Application Development Club, Data Science Club, Technology Coordinator - India Club, 
-                    Cultural Expo Committee, Fomento Scholar, Victorious in numerous Robotics Competitions, Dean’s List 
-                    Recognition.</p>
+                    Member: Application Development Club, Data Science Club, Society of Hispanic Professional Engineers [SHPE], Cultural
+                    Expo [Secretary], India Club [Technology Coordinator]. Fomento Scholar, Winner of numerous Robotics Competitions, Dean’s List Recognition.</p>
 
                 <a href='https://drive.google.com/drive/folders/1CguRaYvqrF47wcXIf01yh9o0Gjzr2VZ1?usp=sharing' target='_blank' rel="noreferrer">
                     <button className='resume'>MY RESUME</button>

@@ -9,9 +9,8 @@ const experiences = [
   icon: cat, 
   iconBg: "#000000",
   date: "Nov 2023 - Present",
-  point1: "Computer Science Research Intern",
-  point2: "...",
-  point3: "...",
+  point1: "Crafted and Deployed Dynamic Apps and Dashboards, leveraging API integration for Enhanced Functionality.",
+  point2: "Collaborated with Executives worldwide, ensuring tailored Software Solutions aligned with Customer Requirements."
 },
 {
   title: "Front-end Web Developer",
@@ -19,9 +18,8 @@ const experiences = [
   icon: sdmw, 
   iconBg: "#ffffff",
   date: "May 2023 - Present",
-  point1: "Edited and maintained University web pages, ensuring accuracy, clarity, and user-friendliness.",
-  point2: "Collaborated with content creators and utilized HTML/CSS/JS to update information promptly and responsibly.",
-  point3: "Elevated the collective online experience for a user base exceeding 10,000+ students, parents, and staff members.",
+  point1: "Edited and Maintained University Web Pages, ensuring Accuracy, Clarity, and User-Friendliness.",
+  point2: "Elevated the Collective Online Experience for a User Base exceeding 10,000+ Students, Parents, and Staff Members.",
 },
 {
   title: "University Front-desk Representative",
@@ -29,9 +27,8 @@ const experiences = [
   icon: sdmb, 
   iconBg: "#001e4d",
   date: "Jan 2023 - Dec 2023",
-  point1: "Efficiently managed front-desk operations of a school with 2,500+ students, ensuring smooth & organized operations.",
-  point2: "Handled package delivery logistics, making sure all delivered packages were accurately distributed to students.",
-  point3: "Effectively communicated with students, parents, and staff, fostering a welcoming environment.",
+  point1: "Efficiently Managed front-desk operations of a school with 2,500+ Students, ensuring Smooth & Organized Operations.",
+  point2: "Effectively Communicated with Students, Parents, and Staff, fostering a Welcoming Environment.",
 },  
 {
   title: "Brand Ambassador - Robotics",
@@ -39,9 +36,8 @@ const experiences = [
   icon: vsss, 
   iconBg: "#ffffff",
   date: "June 2016 - May 2017",
-  point1: "Inspired and motivated students to pursue STEM research and build Robotic Projects using Embedded Systems.",
-  point2: "Enhanced the Robotics and Programming Workshop curriculum to optimize learning and problem-solving outcomes.",
-  point3: "Responsible for significantly boosting workshop attendance by attracting 1,000+ enthusiastic young students.",
+  point1: "Inspired and Motivated Enthusiasts to pursue STEM and build Robotic Projects using Embedded Systems.",
+  point2: "Improved Robotics and Programming Workshop Curriculum to Optimize Learning and Problem-Solving Outcomes.",
 },
 ];
 
@@ -66,7 +62,7 @@ const experiences = [
     },
     {
       name: "AUTOMATED HOME ASSISTANT",
-      description: "Features Home Automation: control appliances remotely using the Assistant app or by using Voice Commands. Integrates a Voice Assistant with the ability to leverage the internet to answer a diverse range of questions.",
+      description: "Features Home Automation: Control Appliances remotely using the Assistant app or by using Voice Commands. Integrates a Voice Assistant with the ability to leverage the internet to answer a diverse range of questions.",
       image: assistant, 
       source_code_link: "https://github.com/stevedesa/Automated-Home-Assistant",
     },
