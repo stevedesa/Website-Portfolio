@@ -1,4 +1,4 @@
-import {monkey, assistant, knight, doggies, vsss, sdmb, sdmw, cat } from "./assets";
+import {monkey, assistant, knight, doggies, vsss, sdmb, sdmw } from "./assets";
 
 
   
