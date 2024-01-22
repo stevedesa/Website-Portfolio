@@ -7,7 +7,7 @@ const experiences = [
   title: "Software Engineering Intern",
   company_name: "Caterpillar MineStar Consortium, SDSMT", 
   icon: sdmb, 
-  iconBg: "#000000",
+  iconBg: "#001e4d",
   date: "Nov 2023 - Present",
   point1: "Crafted and Deployed Dynamic Apps and Dashboards, leveraging API integration for Enhanced Functionality.",
   point2: "Collaborated with Executives worldwide, ensuring tailored Software Solutions aligned with Customer Requirements."
