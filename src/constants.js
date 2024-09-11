@@ -15,7 +15,7 @@ const experiences = [
     title: 'Software Engineer Intern',
     company_name: 'CNH Industrial',
     icon: cnh,
-    iconBg: '#000000',
+    iconBg: '#ffffff',
     date: 'August 2024 - Present',
     point1:
       'Developed and maintained software for the Raven Viper Field Computers.',
@@ -24,7 +24,7 @@ const experiences = [
     title: 'Software Engineer Intern',
     company_name: 'CNH Industrial',
     icon: cnh,
-    iconBg: '#000000',
+    iconBg: '#ffffff',
     date: 'May 2024 - August 2024',
     point1:
       'Developed software for the Perceptions, Surround Sense and AI/ML Autonomy team.',
