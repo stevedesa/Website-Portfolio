@@ -29,7 +29,6 @@ const ExperienceCard = ({ experience }) => {
         </div>
         <ul class="points">
             <li class="list-item">{experience.point1}</li>
-            <li class="list-item">{experience.point2}</li>
         </ul>
       </div>
     </VerticalTimelineElement>
