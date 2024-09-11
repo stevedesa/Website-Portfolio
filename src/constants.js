@@ -7,19 +7,36 @@ import {
   sdmb,
   sdmw,
   cat,
+  cnh,
 } from './assets'
 
 const experiences = [
   {
-    title: 'Software Engineering Intern',
+    title: 'Software Engineer Intern',
+    company_name: 'CNH Industrial',
+    icon: cnh,
+    iconBg: '#000000',
+    date: 'August 2024 - Present',
+    point1:
+      'Developed and maintained software for the Raven Viper Field Computers.',
+  },
+  {
+    title: 'Software Engineer Intern',
+    company_name: 'CNH Industrial',
+    icon: cnh,
+    iconBg: '#000000',
+    date: 'May 2024 - August 2024',
+    point1:
+      'Developed software for the Perceptions, Surround Sense and AI/ML Autonomy team.',
+  },
+  {
+    title: 'Software Engineer Research Intern',
     company_name: 'Caterpillar MineStar Consortium, SDSMT',
     icon: cat,
     iconBg: '#1a1a1a',
     date: 'Nov 2023 - May 2024',
     point1:
-      'Crafted and deployed dynamic apps and dashboards, leveraging the latest technologies.',
-    point2:
-      'Collaborated with executives, ensuring tailored software solutions aligned with customer requirements.',
+      'Collaborated with executives to develop tailored software solutions aligned with customer requirements.',
   },
   {
     title: 'Front-end Web Developer',
@@ -28,9 +45,7 @@ const experiences = [
     iconBg: '#ffffff',
     date: 'May 2023 - May 2024',
     point1:
-      'Managed and maintained university web pages, ensuring accuracy, clarity, and user-friendliness.',
-    point2:
-      'Collaborated with content creators and utilized HTML/CSS/JS to update information promptly.',
+      'Volunteered as a developer and editor for the Ivanhoe International Center web pages.',
   },
   {
     title: 'University Front-desk Representative',
@@ -39,8 +54,6 @@ const experiences = [
     iconBg: '#001e4d',
     date: 'Jan 2023 - Dec 2023',
     point1: 'Managed and ensured smooth & organized front-desk operations.',
-    point2:
-      'Communicated with students, parents, and staff, fostering a welcoming environment.',
   },
   {
     title: 'Brand Ambassador - Robotics',
@@ -50,8 +63,6 @@ const experiences = [
     date: 'June 2016 - May 2017',
     point1:
       'Inspired and motivated enthusiasts to pursue STEM and build robotic projects using embedded systems.',
-    point2:
-      'Improved robotics and programming workshop curriculum to optimize learning and problem-solving outcomes.',
   },
 ]
 
