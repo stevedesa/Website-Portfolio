@@ -59,23 +59,23 @@ const About = () => {
             />
           </h1>
           <p>
-            I'm a Sophomore Computer Science Major studying at the South Dakota
+            I'm a Senior Computer Science Major studying at the South Dakota
             School of Mines and Technology.
           </p>
           <p>
-            I'm Proficient in Python, C, C#, C++, HTML, CSS, JavaScript,
-            TypeScript, SQL, R, Java
+            I'm Proficient in Python, Kotlin, Java, C, C#, C++, Rust, HTML, CSS,
+            JavaScript, TypeScript, SQL, R
           </p>
           <p>
             I have experience working with a variety of Frameworks and
             Technologies, namely: <br />
             ASP.NET, Next.JS, Node.JS, React.JS, Express.JS, Django, Flask,
-            Docker, Kubernetes, MongoDB
+            Redux, Kafka, Flink
           </p>
           <p>
-            I'm proficient with a range of Developer Tools, including: AWS,
-            Azure, Google Cloud, Git, Visual Studio, PyCharm, CLion, IntelliJ,
-            RStudio, XCode, Power BI
+            I'm proficient with a range of Developer Tools, including: Git, AWS,
+            Azure, Google Cloud, Docker, Kubernetes, Linux, Power BI, Excel,
+            Jira, Confluence
           </p>
           <p>
             I hold Certifications in the following Courses: <br />

@@ -8,17 +8,27 @@ import {
   sdmw,
   cat,
   cnh,
+  a2z,
 } from './assets'
 
 const experiences = [
   {
-    title: 'Software Engineer Intern',
+    title: 'Software Development Engineer Intern',
+    company_name: 'Amazon',
+    icon: a2z,
+    iconBg: '#ffffff',
+    date: 'May 2025 - August 2025',
+    point1:
+      'Developed new high-visibility, live-game features for the 2025 NBA season on Prime Video Sports',
+  },
+  {
+    title: 'Software Engineer Intern [Part-Time]',
     company_name: 'CNH Industrial',
     icon: cnh,
     iconBg: '#ffffff',
-    date: 'August 2024 - Present',
+    date: 'August 2024 - May 2025',
     point1:
-      'Developed and maintained software for the Raven Viper Field Computers.',
+      'Integrated a new navigational system into the Operating System of the Viper Field Computer',
   },
   {
     title: 'Software Engineer Intern',
@@ -27,16 +37,16 @@ const experiences = [
     iconBg: '#ffffff',
     date: 'May 2024 - August 2024',
     point1:
-      'Developed software for the Perceptions, Surround Sense and AI/ML Autonomy team.',
+      'Developed internal software tools that improved the workflow for the Autonomous Tractor development team',
   },
   {
-    title: 'Software Engineer Research Intern',
+    title: 'Software Research Intern',
     company_name: 'Caterpillar MineStar Consortium, SDSMT',
     icon: cat,
     iconBg: '#1a1a1a',
     date: 'Nov 2023 - May 2024',
     point1:
-      'Collaborated with executives to develop tailored software solutions aligned with customer requirements.',
+      'Built a full-stack dashboard to track performance of Cat® MineStar™ Detect system during its beta pilot',
   },
   {
     title: 'Front-end Web Developer',

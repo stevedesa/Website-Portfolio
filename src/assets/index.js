@@ -5,6 +5,7 @@ import sdmw from './company/sdmw.png'
 import sdmb from './company/sdmb.png'
 import cat from './company/cat.png'
 import cnh from './company/cnh.png'
+import a2z from './company/a2z.png'
 
 import monkey from './monkey.png'
 import assistant from './assistant.png'
@@ -22,4 +23,5 @@ export {
   doggies,
   cat,
   cnh,
+  a2z,
 }
