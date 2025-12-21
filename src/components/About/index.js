@@ -10,6 +10,7 @@ import {
   ReactLogo,
 } from 'styled-icons/boxicons-logos'
 import Loader from 'react-loaders'
+import { about } from '../../constants'
 
 const About = () => {
   const [letterClass, setLetterClass] = useState('text-animate')
@@ -23,7 +24,7 @@ const About = () => {
   useEffect(() => {
     // Function to create stars
     function stars() {
-      let count = 500
+      let count = 200
       let scene = document.querySelector('.about-page')
       let i = 0
       while (i < count) {
@@ -58,44 +59,9 @@ const About = () => {
               idx={15}
             />
           </h1>
-          <p>
-            I'm a Senior Computer Science Major studying at the South Dakota
-            School of Mines and Technology.
-          </p>
-          <p>
-            I'm Proficient in Python, Kotlin, Java, C, C#, C++, Rust, HTML, CSS,
-            JavaScript, TypeScript, SQL, R
-          </p>
-          <p>
-            I have experience working with a variety of Frameworks and
-            Technologies, namely: <br />
-            ASP.NET, Next.JS, Node.JS, React.JS, Express.JS, Django, Flask,
-            Redux, Kafka, Flink
-          </p>
-          <p>
-            I'm proficient with a range of Developer Tools, including: Git, AWS,
-            Azure, Google Cloud, Docker, Kubernetes, Linux, Power BI, Excel,
-            Jira, Confluence
-          </p>
-          <p>
-            I hold Certifications in the following Courses: <br />
-            Android App and Game Development | Design and Development of
-            Embedded Systems and Robotics | Advanced Robotics based on AVR and
-            Raspberry Pi | Design and Development of IOT | Advanced MQTT
-            Automation and IOT | Fullstack Web Development Bootcamp | Python Pro
-            Bootcamp | Foundational C# [Microsoft]
-          </p>
-          <p>
-            Here are some of my Extracurriculars and Achievements: <br />
-            Member: Society of Hispanic Professional Engineers [SHPE],
-            Association of Technology, Management, and Applied Engineering
-            [ATMAE], Society for Mining, Metallurgy, and Exploration [SME],
-            Cultural Expo [Secretary], India Club [Technology Coordinator].
-            Student Peer Mentor, International Student Ambassador, Fomento
-            Scholar, Winner of numerous Robotics Competitions, Dean’s List
-            Recognition (All Semesters).
-          </p>
-
+          {about.map((paragraph, index) => (
+            <p key={index}>{paragraph.text}</p>
+          ))}
           <a
             href="https://drive.google.com/drive/folders/1CguRaYvqrF47wcXIf01yh9o0Gjzr2VZ1?usp=sharing"
             target="_blank"

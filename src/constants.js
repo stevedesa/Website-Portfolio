@@ -11,6 +11,27 @@ import {
   a2z,
 } from './assets'
 
+const about = [
+  {
+    text: "I'm a Computer Science Senior studying at the South Dakota School of Mines and Technology.",
+  },
+  {
+    text: "I'm Proficient in Python, Kotlin, Java, C, C#, C++, Rust, HTML, CSS, JavaScript, TypeScript, SQL, R",
+  },
+  {
+    text: 'I have experience working with a variety of Frameworks and Technologies, namely: ASP.NET, Flutter, Android Jetpack, Qt, Node.JS, Next.JS, React, Angular, Django, Kafka, Flink',
+  },
+  {
+    text: "I'm proficient with a range of Developer Tools, including: Git, AWS, Azure, Google Cloud, Docker, Kubernetes, Figma, Linux, Power BI, Excel, Jira",
+  },
+  {
+    text: 'I hold Certifications in the following: Advanced Technical Interview Prep (CodePath) | Android App and Game Development | Full-Stack Web Development Design and Development of IOT | Advanced MQTT Automation and IOT | Deep Learning, Neural Networks and AI Advanced Robotics based on AVR and Raspberry Pi | Design and Development of Embedded Systems and Robotics',
+  },
+  {
+    text: 'Here are some of my Extracurriculars: First Year Student Peer Mentor, International Student Ambassador, Winner of numerous Robotics Competitions, Awarded Outstanding Junior at SDSMT, Co-authored a research paper leveraging data analytics to investigate COVID-19.',
+  },
+]
+
 const experiences = [
   {
     title: 'Software Development Engineer Intern',
@@ -22,7 +43,7 @@ const experiences = [
       'Developed new high-visibility, live-game features for the 2025 NBA season on Prime Video Sports',
   },
   {
-    title: 'Software Engineer Intern [Part-Time]',
+    title: 'Software Engineer Intern',
     company_name: 'CNH Industrial',
     icon: cnh,
     iconBg: '#ffffff',
@@ -107,4 +128,4 @@ const projects = [
   },
 ]
 
-export { experiences, projects }
+export { about, experiences, projects }

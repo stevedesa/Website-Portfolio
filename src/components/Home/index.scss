@@ -18,28 +18,19 @@
         font-family: 'Coolvetica';
         font-weight: 400;
         -webkit-text-stroke: 1px #000000;
-        // text-shadow: 0 0 2px #ffffff;
-
-        img {
-            width: 32px;
-            margin-left: 0px;
-            opacity: 0;
-            height: auto;
-            animation: rotateIn 1.4s linear both;
-            animation-delay: 2.5s;
-        }
     }
 }
 
 h2 {
-    color: #8d8d8d;
+    color: #ffffff;
     margin-top: 20px;
     font-weight: 600;
     font-size: 11px;
     font-family: sans-serif;
     letter-spacing: 3px;
     animation: fadeIn 4s 3s backwards;
-    text-shadow: 0 0 20px #ffffff;
+    animation-delay: 7s;
+    text-shadow: 0 0 10px #ffffff;
     -webkit-text-stroke: 0.2px #000000;
 }
 
@@ -55,6 +46,7 @@ h2 {
     margin-top: 25px;
     float: left !important;
     animation: fadeIn 4s 3.5s backwards;
+    animation-delay: 7s;
     white-space: nowrap;
     border-radius: 10px;
     text-shadow: 0 0 20px #000000;
@@ -98,23 +90,6 @@ h2 {
     }
 }
 
-// @media screen and (max-width: 1200px) {
-//     .home-page .text-zone {
-//       position: initial;
-//       width: 100%;
-//       transform: none;
-//       padding: 10px;
-//       box-sizing: border-box;
-//     }
-  
-//     .home-page .flat-button {
-//       float: none;
-//       display: block;
-//       margin: 20px auto 0 auto;
-//       width: 124px;
-//     }
-// }
-
 .earthanimdiv{
     position: absolute;
     top: 0;
@@ -157,7 +132,6 @@ h2 {
             font-family: 'Coolvetica';
             font-weight: 400;
             -webkit-text-stroke: 1px #000000;
-            // text-shadow: 0 0 2px #ffffff;
     
             img {
                 width: 26px;

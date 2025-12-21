@@ -1,9 +1,7 @@
 import React, { useEffect, useState } from "react";
 import { VerticalTimeline, VerticalTimelineElement } from "react-vertical-timeline-component";
 import AnimatedLetters from '../AnimatedLetters';
-
 import "react-vertical-timeline-component/style.min.css";
-
 import { experiences } from "../../constants";
 import { SectionWrapper } from "../../hoc";
 

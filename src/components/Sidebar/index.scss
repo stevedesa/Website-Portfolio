@@ -10,13 +10,12 @@
 
     .logo {
         display: block;
-        padding-top: 2px !important;
+        padding-top: 10px !important;
         padding: 0px, 0px;
 
         img {
             display: block;
             margin: 8px auto;
-            border: #ffffff solid 3px;
             border-radius: 30%;
             width: 36px;
             height: auto;
@@ -41,66 +40,19 @@
             position: relative;
             text-decoration: none;
 
-            i {
-                transition: all 0.3s ease-out;
-            }
-
-            &:hover {
-                color: #ffd700;
-
-                svg {
-                    opacity: 0;
-                }
-
-                &:after {
-                    opacity: 1;
-                }
-            }
-
-            &:after {
-                content: '';
-                font-size: 9px;
-                font-family: 'Comic Sans MS';
-                letter-spacing: 1px;
-                position: absolute;
-                bottom: 0;
-                display: block;
-                width: 100%;
-                text-align: center;
-                opacity: 0;
-                -webkit-transition: all 0.3s ease-out;
-                transition: all 0.3s ease-out;
-              }
-
-            &:first-child {
-                &::after {
-                    content: 'HOME';
-                }
-            }
-        }
-
-        a.about-link {
-            &:after {
-                content: "ABOUT";
-            }
-        }
-
-        a.portfolio-link {
-            &:after {
-                content: "PORTFOLIO";
-            }
-        }
-
-        a.active {
-            svg {
+            &:hover svg {
                 color: #ffd700;
             }
+        }
+
+        a.active svg {
+            color: #ffd700;
         }
     }
 
     ul {
         position: absolute;
-        bottom: 20px;
+        bottom: 10px;
         width: 100%;
         display: block;
         padding: 0;
@@ -112,12 +64,11 @@
             a {
                 padding: 7px 0;
                 display: block;
-                font-size: 15px;
-                line-height: 16px;
+                font-size: 22px;
+                line-height: 22px;
 
                 &:hover svg {
                     color: #ffd700;
-
                 }
             }
         }
