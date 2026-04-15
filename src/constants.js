@@ -40,7 +40,7 @@ const experiences = [
     iconBg: '#ffffff',
     date: 'May 2025 - August 2025',
     point1:
-      'Developed new high-visibility, live-game features for the 2025 NBA season on Prime Video Sports',
+      'Developed new Live-Odds cards in the Bet Tracking feature for NBA on Prime Video Sports',
   },
   {
     title: 'Software Engineer Intern',
@@ -50,6 +50,22 @@ const experiences = [
     date: 'August 2024 - May 2025',
     point1:
       'Integrated a new navigational system into the Operating System of the Viper Field Computer',
+  },
+  {
+    title: 'International Student Ambassador',
+    company_name: 'South Dakota School of Mines and Technology',
+    icon: sdmw,
+    iconBg: '#ffffff',
+    date: 'May 2024 - May 2026',
+    point1: 'Representative of 150+ International Students',
+  },
+  {
+    title: 'Peer Mentor',
+    company_name: 'South Dakota School of Mines and Technology',
+    icon: sdmb,
+    iconBg: '#ffffff',
+    date: 'August 2024 - May 2025',
+    point1: 'Mentor to Computer Science Freshmen',
   },
   {
     title: 'Software Engineer Intern',
@@ -76,7 +92,7 @@ const experiences = [
     iconBg: '#ffffff',
     date: 'May 2023 - May 2024',
     point1:
-      'Volunteered as a developer and editor for the Ivanhoe International Center web pages.',
+      'Volunteered as a developer and editor for the Ivanhoe International Center web pages',
   },
   {
     title: 'University Front-desk Representative',
@@ -84,7 +100,7 @@ const experiences = [
     icon: sdmb,
     iconBg: '#001e4d',
     date: 'Jan 2023 - Dec 2023',
-    point1: 'Managed and ensured smooth & organized front-desk operations.',
+    point1: 'Ensured smooth & organized front-desk operations',
   },
   {
     title: 'Brand Ambassador - Robotics',
@@ -93,7 +109,7 @@ const experiences = [
     iconBg: '#ffffff',
     date: 'June 2016 - May 2017',
     point1:
-      'Inspired and motivated enthusiasts to pursue STEM and build robotic projects using embedded systems.',
+      'Encouraged students to build robotic projects using embedded systems',
   },
 ]
 
