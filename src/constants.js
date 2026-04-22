@@ -63,7 +63,7 @@ const experiences = [
     title: 'Peer Mentor',
     company_name: 'South Dakota School of Mines and Technology',
     icon: sdmb,
-    iconBg: '#ffffff',
+    iconBg: '#001e4d',
     date: 'August 2024 - May 2025',
     point1: 'Mentor to Computer Science Freshmen',
   },
